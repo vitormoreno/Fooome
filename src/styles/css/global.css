@@ -1,0 +1,271 @@
+@import "responsive.css";
+
+@import "flaticon.css";
+
+@import "fonts.css";
+
+:root{
+  --color--yellow: #f2b705;
+  --color--red: #c51c1a;
+  --color--orange: #f38313;
+  --color--green: #7bc03a;
+  --color--dark: #1b1b1b;
+  --color--ice: #f4f4f4;
+  --color--shadow: #e4e4e4;
+  --color--grey: #979797;
+  --color--blue: #2b6a7f;
+
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
+
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color--ice);
+}
+
+body, button{
+  font-family: Tajawal--Medium;
+  font-size: 22px;
+  line-height: 100%;
+  color: var(--color--grey);
+}
+
+h1, h2, h3, h4{
+  font-family: Tajawal--Black;
+  line-height: 100%;
+  color: var(--color--dark);
+}
+
+p{
+  padding-top: 15px;
+}
+
+p strong{
+  color: var(--color--dark);
+}
+
+header, main{
+  display: flex;
+  justify-content: center;
+}
+
+header{
+  z-index: 40;
+  top: 0;
+  align-items: center;
+
+  width: 100%;
+  padding: 25px 0;
+  margin-bottom: 20px;
+
+  background-color: var(--color--yellow);
+}
+
+header .content{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header p{
+  line-height: 1.2em;
+  color: var(--color--dark);
+}
+
+header .btn{
+  margin-top: 30px;
+}
+
+header.shadow {
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+
+  width: 100%;
+  max-width: 1120px;
+  margin: 20px;
+}
+
+.brand{
+  width: 45vmin;
+  max-width: 140px;
+}
+
+.brand svg{
+  width: 100%;
+  height: 100%;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+
+  padding: 17px 30px;
+
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: white;
+
+  border-radius: 22px;
+  background-color: var(--color--red);
+  transition: filter 0.5s;
+}
+
+.btn.secondary{
+  background-color: var(--color--grey);
+}
+
+.btn:hover{
+  filter: brightness(60%);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+  padding: 20px 0;
+
+  background-color: var(--color--shadow);
+}
+
+footer p{
+  padding: 0;
+
+  font-size: 0.8em;
+}
+
+footer p a{
+  color: var(--color--blue);
+}
+
+footer p a:hover{
+  text-decoration: underline;
+}
+
+@keyframes animate--modal-in{
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes animate--modal-out{
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.9);
+
+  animation-name: animate--modal-in;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+
+.modal.close{
+  animation-name: animate--modal-out;
+  animation-delay: 0.4s;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes animate--modal-content-in{
+  0% {
+    transform: scale(0);
+    filter: blur(5px);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: blur(2px);
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes animate--modal-content-out{
+  0% {
+    transform: scale(1);
+    filter: blur(0);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: blur(2px);
+  }
+  100% {
+    transform: scale(0);
+    filter: blur(5px);
+  }
+}
+
+.modal .modal--content{
+  display: flex;
+
+  padding: 30px;
+  margin: 30px;
+
+  text-align: center;
+
+  border-radius: 6px;
+  background-color: white;
+  transform: scale(0);
+
+  animation-name: animate--modal-content-in;
+  animation-duration: 0.4s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.modal.close .modal--content{
+  animation-name: animate--modal-content-out;
+  animation-delay: 0s;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in;
+}
+
+.modal .warning{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .warning p{
+  padding: 20px 0;
+}
+
+.modal .flaticon-warning::before{
+  font-size: 5em;
+  line-height: 1em;
+  color: var(--color--red);
+}

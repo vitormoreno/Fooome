@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ing_01",
+    "name": "Carne"
+  },
+  {
+    "id": "ing_02",
+    "name": "Frango"
+  },
+  {
+    "id": "ing_03",
+    "name": "Porco"
+  },
+  {
+    "id": "ing_04",
+    "name": "Peixes"
+  },
+  {
+    "id": "ing_05",
+    "name": "Frutos do mar"
+  },
+  {
+    "id": "ing_06",
+    "name": "Massas"
+  },
+  {
+    "id": "ing_07",
+    "name": "Molhos"
+  },
+  {
+    "id": "ing_08",
+    "name": "Queijos"
+  },
+  {
+    "id": "ing_09",
+    "name": "Lanches"
+  },
+  {
+    "id": "ing_10",
+    "name": "Legumes"
+  },
+  {
+    "id": "ing_11",
+    "name": "Frutas"
+  },
+  {
+    "id": "ing_12",
+    "name": "Saladas"
+  },
+  {
+    "id": "ing_13",
+    "name": "Sopas"
+  },
+  {
+    "id": "ing_14",
+    "name": "Light"
+  },
+  {
+    "id": "ing_15",
+    "name": "Vegetariana"
+  },
+  {
+    "id": "ing_16",
+    "name": "Sem Glúten"
+  },
+  {
+    "id": "ing_17",
+    "name": "Sem Lactose"
+  }
+]

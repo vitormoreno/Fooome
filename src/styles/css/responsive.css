@@ -1,0 +1,38 @@
+@media (max-width: 600px){ 
+  body{
+    font-size: 5.5vw !important;
+  }
+
+  header h1{
+    font-size: 1.9em !important;
+  }
+
+  header h1, header p{
+    padding-top: 7% !important;
+  }
+
+  header .btn{
+    margin-top: 7% !important;
+  }
+
+  .row-submit.show{
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    padding: 20px 0;
+
+    background-color: var(--color--ice);
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
+  }
+}
+
+@media (max-width: 420px){ 
+  .list-preferences{
+    grid-template-columns: repeat(auto-fit, minmax(140px, auto)) !important;
+  }
+}

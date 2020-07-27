@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Tajawal--Black;
+  src: url(../fonts/Tajawal-Black.ttf);
+}
+
+@font-face {
+  font-family: Tajawal--Bold;
+  src: url(../fonts/Tajawal-Bold.ttf);
+}
+
+@font-face {
+  font-family: Tajawal--Medium;
+  src: url(../fonts/Tajawal-Medium.ttf);
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "foo_001",
+    "name": "Bife à parmegiana",
+    "image": "bife-a-parmegiana.jpg",
+    "description": "Carne em bifes empanados, coberto com muito queijo e molho de tomate.",
+    "attributes": [
+      "ing_01",
+      "ing_07",
+      "ing_08"
+    ],
+    "recipe": "https://www.panelinha.com.br/receita/Bife-a-parmegiana",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=bife%20a%20parmegiana",
+    "place": "https://www.tripadvisor.com.br/Search?q=bife%20a%20parmegiana&ssrc=e"
+  },
+  {
+    "id": "foo_002",
+    "name": "Carne de panela",
+    "image": "carne-de-panela-com-batata-e-cenoura.jpg",
+    "description": "Suculenta carne em cubos com batatas e cenoura, temperado com ervas finas.",
+    "attributes": [
+      "ing_01"
+    ],
+    "recipe": "https://www.receitasnestle.com.br/receitas/picadinho-de-carne-com-batatas-e-cenoura",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=carne%20de%20panela",
+    "place": "https://www.tripadvisor.com.br/Search?q=carne%20de%20panela&ssrc=e"
+  },
+  {
+    "id": "foo_003",
+    "name": "Estrogonofe de carne",
+    "image": "estrogonofe-de-carne.jpg",
+    "description": "Maravilhosa carne cortada em tiras ao molho de creme de leite, mostarda, champion e especiarias.",
+    "attributes": [
+      "ing_01",
+      "ing_07"
+    ],
+    "recipe": "https://mdemulher.abril.com.br/receitas/estrogonofe-de-carne/",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=estrogonofe%20de%20carne",
+    "place": "https://www.tripadvisor.com.br/Search?q=estrogonofe%20de%20carne&ssrc=e"
+  },
+  {
+    "id": "foo_004",
+    "name": "Pão integral com atum",
+    "image": "lanche-com-pao-integral.jpg",
+    "description": "Fatias de pão integral com pasta de atum e requeijão. Acompanha também alface e milho",
+    "attributes": [
+      "ing_09",
+      "ing_14"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/173280-lanche-com-pao-integral.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=lanche%20integral",
+    "place": "https://www.tripadvisor.com.br/Search?q=lanche%20integral&ssrc=e"
+  },
+  {
+    "id": "foo_005",
+    "name": "Salada comum",
+    "image": "salada-integral.jpg",
+    "description": "Salada refrescante com alface, tomate e pão integral, temperado com sal, vinagre e azeite.",
+    "attributes": [
+      "ing_12",
+      "ing_14"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/87541-salada-comum-com-cubos-de-pao-integral.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=salada%20integral",
+    "place": "https://www.tripadvisor.com.br/Search?q=salada%20integral&ssrc=e"
+  },
+  {
+    "id": "foo_006",
+    "name": "Sopa de Cebolas",
+    "image": "sopa-cebolas.jpg",
+    "description": "Sopa deliciosa feita com cebolas acompanhadas de pão ou torradas. Ótimo para esquentar.",
+    "attributes": [
+      "ing_13"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/307919-sopa-de-cebolas.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=sopa%20cebola",
+    "place": "https://www.tripadvisor.com.br/Search?q=sopa%20cebola&ssrc=e"
+  },
+  {
+    "id": "foo_007",
+    "name": "Couve-flor gratinada",
+    "image": "couve-flor-gratinada-com-molho-branco.jpg",
+    "description": "Couve-flor gratinada com molho branco e queijo. Vai bem com bacon e calabresa frita.",
+    "attributes": [
+      "ing_07",
+      "ing_08",
+      "ing_10"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/307957-couve-flor-gratinada-com-molho-branco-e-queijo.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=couve-flor",
+    "place": "https://www.tripadvisor.com.br/Search?q=couve-flor%20gratinada&ssrc=e"
+  },
+  {
+    "id": "foo_008",
+    "name": "Crepioca",
+    "image": "crepioca.jpg",
+    "description": "faça aquele lanche da tarde com um crepioca deliciosa. Com requeijão fica mais gostoso.",
+    "attributes": [
+      "ing_09",
+      "ing_14"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/168455-crepe-de-tapioca-crepioca.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=crepioca",
+    "place": "https://www.tripadvisor.com.br/Search?q=crepioca&ssrc=e"
+  },
+  {
+    "id": "foo_009",
+    "name": "Frango a parmegiana",
+    "image": "frango-a-parmegiana.jpg",
+    "description": "Gostoso file de frango empanado com queijo e molho. Temperado com oregano e especiarias.",
+    "attributes": [
+      "ing_02",
+      "ing_07",
+      "ing_08"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/31016-file-de-frango-a-parmegiana.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=frango%20a%20parmegiana",
+    "place": "https://www.tripadvisor.com.br/Search?q=frango%20a%20parmegiana&ssrc=e"
+  },
+  {
+    "id": "foo_010",
+    "name": "Sopa de cenoura e tomate",
+    "image": "sopa-cenoura-tomate.jpg",
+    "description": "Sopa cremosa feita de cenoura, tomate e manjericão. Acompanha nem com torradas.",
+    "attributes": [
+      "ing_13",
+      "ing_14"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/174835-sopa-de-cenoura-com-tomate-e-manjericao.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=sopa%20de%20cenoura%20e%20tomate",
+    "place": "https://www.tripadvisor.com.br/Search?q=sopas&ssrc=e"
+  },
+  {
+    "id": "foo_011",
+    "name": "Cookie",
+    "image": "cookie.jpg",
+    "description": "Cookies crocantes com pedaço de chocolate. Ótimo com um copo grande de leite.",
+    "attributes": [
+      "ing_09"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/94434-cookie-americano-perfeito.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=cookies",
+    "place": "https://www.tripadvisor.com.br/Search?q=cookies&ssrc=e"
+  },
+  {
+    "id": "foo_012",
+    "name": "Macarrão a bolonhesa",
+    "image": "macarrao-a-bolonhesa.jpg",
+    "description": "Macarrão espaguete ao molho especial de bolonhesa com manjericão e orégano.",
+    "attributes": [
+      "ing_06",
+      "ing_07"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/199523-macarrao-ao-molho-especial-de-manjericao-e-oregano.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=macarão%20a%20bolonhesa",
+    "place": "https://www.tripadvisor.com.br/Search?q=macarão%20a%20bolonhesa&ssrc=e"
+  },
+  {
+    "id": "foo_013",
+    "name": "Lasanha de Abobrinha",
+    "image": "lasanha-de-abobrinha.jpg",
+    "description": "Deliciosa lasanha de abobrinhas, cogumelos e queijo gouda. temperado com alecrim e orégano.",
+    "attributes": [
+      "ing_06",
+      "ing_08",
+      "ing_10",
+      "ing_15"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/172406-lasanha-de-abobrinha-e-cogumelos.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=lasanha%20de%20abobrinha",
+    "place": "https://www.tripadvisor.com.br/Search?q=lasanha%20de%20abobrinha&ssrc=e"
+  },
+  {
+    "id": "foo_014",
+    "name": "Pão de queijo",
+    "image": "pao-de-queijo.jpg",
+    "description": "Típica comida mineira que faz sucesso no Brasil inteiro. Delicioso de comer com requeijão.",
+    "attributes": [
+      "ing_08",
+      "ing_09"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/192883-pao-de-queijo-recheado.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=pão%20de%20queijo",
+    "place": "https://www.tripadvisor.com.br/Search?q=pão%20de%20queijo&ssrc=e"
+  },
+  {
+    "id": "foo_015",
+    "name": "Frango de forno",
+    "image": "frango-de-forno.jpg",
+    "description": "Coxa e sobrecoxa de frango no forno, acompanha tomate, alho, cebola e alecrim.",
+    "attributes": [
+      "ing_02"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/147269-frango-ao-forno-com-alecrim.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=frango%20no%20forno",
+    "place": "https://www.tripadvisor.com.br/Search?q=frango%20no%20forno&ssrc=e"
+  },
+  {
+    "id": "foo_016",
+    "name": "Penne com cogumelos",
+    "image": "penne-ao-molho-de-cogumelos.jpg",
+    "description": "Massa fresca ao molho de cogumelos paris, shitake e shimeji. Cai bem com vinho tinto.",
+    "attributes": [
+      "ing_06",
+      "ing_07",
+      "ing_15"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/303383-penne-ao-molho-de-cogumelos.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=penne%20de%20cogumelos",
+    "place": "https://www.tripadvisor.com.br/Search?q=penne%20de%20cogumelos&ssrc=e"
+  },
+  {
+    "id": "foo_017",
+    "name": "Legumes na manteiga",
+    "image": "legumes-na-manteiga.jpg",
+    "description": "Legumes cozidos e temperados com manteiga. Ficam deliciosos temperados com especiarias.",
+    "attributes": [
+      "ing_10",
+      "ing_15"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/76262-legumes-na-manteiga.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=legumes",
+    "place": "https://www.tripadvisor.com.br/Search?q=legumes&ssrc=e"
+  },
+  {
+    "id": "foo_018",
+    "name": "Frango recheado",
+    "image": "frango-recheado.jpg",
+    "description": "Frango recheado com presunto, queijo e palmito, além de requeijão para ficar bem cremoso.",
+    "attributes": [
+      "ing_02"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/23986-frango-recheado-com-presunto-e-mussarela.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=frango%20recheado",
+    "place": "https://www.tripadvisor.com.br/Search?q=frango%20recheado&ssrc=e"
+  },
+  {
+    "id": "foo_019",
+    "name": "Linguiça frita",
+    "image": "linguica-frita-com-cebola.jpg",
+    "description": "Linguiça cortada em rodelas e frita com cebola, azeite e orégano. Vai bem com uma cerveja gelada.",
+    "attributes": [
+      "ing_03",
+      "ing_09"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/45398-linguica-acebolada-com-oregano.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=linguiça%20frita",
+    "place": "https://www.tripadvisor.com.br/Search?q=linguiça%20frita&ssrc=e"
+  },
+  {
+    "id": "foo_20",
+    "name": "Tomate recheado com carne",
+    "image": "tomate-recheado-com-carne.jpg",
+    "description": "Tomates vermelinhos recheados com carne mioda bem temperada com sal, pimenta e cheiro verde.",
+    "attributes": [
+      "ing_01"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/162796-tomates-recheados-com-carne-moida-e-pimentao.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=tomate%20recheado",
+    "place": "https://www.tripadvisor.com.br/Search?q=tomate%20recheado&ssrc=e"
+  },
+  {
+    "id": "foo_21",
+    "name": "Bife ao molho de maionese",
+    "image": "bife-molho-de-maionese.jpg",
+    "description": "Bifes ao ponto com um molho de maionese e manjericão. Ainda vai cogumelos, alho e azeite.",
+    "attributes": [
+      "ing_01",
+      "ing_07"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/81033-bife-ao-molho-de-maionese-com-manjericao.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=bife%20com%20molho%20de%20maionese",
+    "place": "https://www.tripadvisor.com.br/Search?q=bife&ssrc=e"
+  },
+  {
+    "id": "foo_22",
+    "name": "Macarrão alho e óleo",
+    "image": "macarrao-alho-e-oleo.jpg",
+    "description": "Delicioso macarrão com alho, azeite, folhas de manjericão e queijo parmesão. Vai bem com um pão.",
+    "attributes": [
+      "ing_06"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/779-macarrao-alho-e-oleo.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=macarrão%20alho%20e%20oleo",
+    "place": "https://www.tripadvisor.com.br/Search?q=macarrão%20alho%20e%20oleo&ssrc=e"
+  },
+  {
+    "id": "foo_23",
+    "name": "Frango com páprica",
+    "image": "frango-ao-molho-de-paprica.jpg",
+    "description": "Frango ao molho de páprica. Além de ficar bem vermelinha, o picante da páprica é maravilhoso.",
+    "attributes": [
+      "ing_02",
+      "ing_07"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/32819-frango-com-paprica.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=frango%20com%20páprica",
+    "place": "https://www.tripadvisor.com.br/Search?q=frango%20com%20páprica&ssrc=e"
+  },
+  {
+    "id": "foo_24",
+    "name": "Filé de salmão",
+    "image": "file-de-salmao-com-alecrim.jpg",
+    "description": "Um dos peixes mais deliciosos do mar. Combina muito bem com alecrim, alcaparras e azeite.",
+    "attributes": [
+      "ing_04"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/73198-file-de-salmao-com-alecrim.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=salmão",
+    "place": "https://www.tripadvisor.com.br/Search?q=salmão&ssrc=e"
+  },
+  {
+    "id": "foo_25",
+    "name": "Berinjela a parmegiana",
+    "image": "berinjela-a-parmegiana.jpg",
+    "description": "Berinjelas cortadas e bem temperadas ao molho de tomate com ervas finas.",
+    "attributes": [
+      "ing_07",
+      "ing_15"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/5519-berinjela-a-parmegiana.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=berinjela%20a%20parmegiana",
+    "place": "https://www.tripadvisor.com.br/Search?q=berinjela%20a%20parmegiana&ssrc=e"
+  },
+  {
+    "id": "foo_26",
+    "name": "Fricassê de frango",
+    "image": "fricasse-de-frango.jpg",
+    "description": "Além de maravilhoso o frango fica uma delícia com creme de leite e requeijão.",
+    "attributes": [
+      "ing_02"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/166964-fricasse-de-frango.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=fricasse%20de%20frango",
+    "place": "https://www.tripadvisor.com.br/Search?q=fricasse%20de%20frango&ssrc=e"
+  },
+  {
+    "id": "foo_27",
+    "name": "Perfil de porco",
+    "image": "pernil-de-porco.jpg",
+    "description": "Suculento pernil de porco ao molho de manteiga e cebolas. Temperado com azeite e vinho tinto.",
+    "attributes": [
+      "ing_03",
+      "ing_07"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/157653-pernil-de-porco-ao-molho-de-manteiga-e-cebolas.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=perfil%20de%20porco",
+    "place": "https://www.tripadvisor.com.br/Search?q=perfil%20de%20porco&ssrc=e"
+  },
+  {
+    "id": "foo_28",
+    "name": "Parei no 17",
+    "image": "pernil-de-porco.jpg",
+    "description": "Suculento pernil de porco ao molho de manteiga e cebolas. Temperado com azeite e vinho tinto.",
+    "attributes": [
+      "ing_03",
+      "ing_07"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/157653-pernil-de-porco-ao-molho-de-manteiga-e-cebolas.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=perfil%20de%20porco",
+    "place": "https://www.tripadvisor.com.br/Search?q=perfil%20de%20porco&ssrc=e"
+  }
+]
