@@ -1,3 +1,4 @@
+![Fooome](images/fooome.svg)
 # Fooome - Recomendações de pratos
 
   ### Descrição
