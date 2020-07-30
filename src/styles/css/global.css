@@ -116,8 +116,7 @@ header.shadow {
 }
 
 .btn{
-  /*display: flex;
-  align-items: center;*/
+  display: inline-flex;
 
   padding: 17px 30px;
 
