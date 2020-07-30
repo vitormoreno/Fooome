@@ -42,7 +42,7 @@ body{
 body, button{
   font-family: Tajawal--Medium;
   font-size: 22px;
-  line-height: 100%;
+  line-height:normal;
   color: var(--color--grey);
 }
 
@@ -54,6 +54,7 @@ h1, h2, h3, h4{
 
 p{
   padding-top: 15px;
+  line-height: 100%;
 }
 
 p strong{
