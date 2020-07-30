@@ -1,3 +1,5 @@
+@import "reset.css";
+
 @import "responsive.css";
 
 @import "flaticon.css";
@@ -14,22 +16,6 @@
   --color--shadow: #e4e4e4;
   --color--grey: #979797;
   --color--blue: #2b6a7f;
-
-  scroll-behavior: smooth;
-}
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
-  text-decoration: none;
-  list-style: none;
-
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
 }
 
 body{
@@ -123,8 +109,11 @@ header.shadow {
   padding: 17px 25px;
 
   text-transform: uppercase;
+  text-decoration: none;
   color: white;
 
+  border: none;
+  outline: none;
   border-radius: 22px;
   background-color: var(--color--red);
   transition: filter 0.5s;
