@@ -17,6 +17,7 @@
 .flaticon-hunger:before {
   content: "\f101";
   font-size: 1.2em;
+  line-height: 1.2em;
   padding-right: 7px;
 }
 
