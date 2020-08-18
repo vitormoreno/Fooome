@@ -24,4 +24,12 @@ routes.post('/pratos', (req, res) => {
   })
 })
 
+routes.get('/pratos', (req, res) => {     
+  
+  res.render('pages/foods', {
+    attributes: attributes,
+    foods: suggestionFoods('all')
+  })
+})
+
 module.exports = routes

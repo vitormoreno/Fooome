@@ -18,12 +18,18 @@ function sort(list, attr){
   )
 }
 
-function suggestionFood(args){
+function suggestionFood(args = 'all'){
   
-  let attrs = Array.isArray(args.attributes) ? args.attributes : [args.attributes]
+  if (args != 'all'){
+    let attrs = Array.isArray(args.attributes) ? args.attributes : [args.attributes]
 
-  let listSuggestion = listFood.filter( food => match(food, attrs))
-  return sort(listSuggestion, 'match')
+    let listSuggestion = listFood.filter( food => match(food, attrs))
+    return sort(listSuggestion, 'match')
+
+  } else {
+    return listFood
+  }
+  
 }
 
 module.exports = suggestionFood
