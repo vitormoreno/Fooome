@@ -349,15 +349,57 @@
   },
   {
     "id": "foo_28",
-    "name": "Parei no 17",
-    "image": "pernil-de-porco.jpg",
-    "description": "Suculento pernil de porco ao molho de manteiga e cebolas. Temperado com azeite e vinho tinto.",
+    "name": "Panqueca americana",
+    "image": "panqueca-americana.jpg",
+    "description": "Diferente da nossa panqueca tradicional salgada, essa é doce com cobertura de frutas.",
     "attributes": [
-      "ing_03",
-      "ing_07"
+      "ing_09",
+      "ing_11"
     ],
-    "recipe": "https://www.tudogostoso.com.br/receita/157653-pernil-de-porco-ao-molho-de-manteiga-e-cebolas.html",
-    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=perfil%20de%20porco",
-    "place": "https://www.tripadvisor.com.br/Search?q=perfil%20de%20porco&ssrc=e"
+    "recipe": "https://www.tudogostoso.com.br/receita/13110-panqueca-americana.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=panqueca",
+    "place": "https://www.tripadvisor.com.br/Search?q=panqueca&ssrc=e"
+  },
+  {
+    "id": "foo_29",
+    "name": "Cream cheese na geléia de pimentão vermelho",
+    "image": "torrada-cream-cheese-geleia-pimentao.jpg",
+    "description": "Um ótimo aperitivo para aquela reunião com os amigos. Acompanha com um bom vinho.",
+    "attributes": [
+      "ing_08",
+      "ing_09",
+      "ing_11"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/22900-cream-cheese-na-geleia-de-pimentao-vermelho.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=cream%20cheese",
+    "place": "https://www.tripadvisor.com.br/Search?q=cream%20cheese&ssrc=e"
+  },
+  {
+    "id": "foo_30",
+    "name": "Patê de cream cheese com abacaxi",
+    "image": "pate-cream-cheese-com-abacaxi.jpg",
+    "description": "Patê delicioso e refrescante, para comer em uma tarde de verão.",
+    "attributes": [
+      "ing_08",
+      "ing_09",
+      "ing_11"
+    ],
+    "recipe": "https://www.tudogostoso.com.br/receita/299709-pate-de-cream-cheese-com-abacaxi.html",
+    "delivery": "https://www.ifood.com.br/busca?type=RESTAURANT&tab=2&q=paté",
+    "place": "https://www.tripadvisor.com.br/Search?q=paté&ssrc=e"
+  },
+  {
+    "id": "foo_31 Parei no 20",
+    "name": "",
+    "image": "",
+    "description": "",
+    "attributes": [
+      "ing_08",
+      "ing_09",
+      "ing_11"
+    ],
+    "recipe": "",
+    "delivery": "",
+    "place": ""
   }
 ]
