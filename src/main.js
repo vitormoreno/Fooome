@@ -10,4 +10,4 @@ app.use(bodyParser.urlencoded({ extended: true }))
 const routes = require('./routes')
 app.use(routes)
 
-app.listen(3000, (req, res) => console.log('Server rodando!'))
+app.listen(process.env.PORT || 3000, (req, res) => console.log('Server rodando!'))
